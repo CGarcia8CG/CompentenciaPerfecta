@@ -1,4 +1,4 @@
-from turtle import width
+#from turtle import width
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -12,6 +12,7 @@ print(1+1)
 P,Q,Qs,Qd = symbols("P,Q,Qs,Qd")
 
 #pip freeze > requirements.txt
+#pip list
 #python -m streamlit run Comp_Perfecta.py
 #conn = psycopg2.connect(
 #    host="localhost",
