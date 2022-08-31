@@ -2,7 +2,7 @@ from turtle import width
 import streamlit as st
 import pandas as pd
 import numpy as np
-import psycopg2
+#import psycopg2
 from sympy import *
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
@@ -10,6 +10,8 @@ import plotly.figure_factory as ff
 
 print(1+1)
 P,Q,Qs,Qd = symbols("P,Q,Qs,Qd")
+
+#pip freeze > requirements.txt
 #python -m streamlit run Comp_Perfecta.py
 #conn = psycopg2.connect(
 #    host="localhost",
